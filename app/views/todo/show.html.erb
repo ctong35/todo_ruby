@@ -2,13 +2,13 @@
   Workshop Todo List
 </h1>
 
-<h3>Todo #<%= params[:id] %></h3>
+<h2>Todo #<%= params[:id] %></h2>
 
 <div class="card">
-  <input type="checkbox" name=""/>
-  <h2><%= @todo_description %></h2>
+  <h3><%= @todo_description %></h3>
   <span class="pomodoro-estimate large-pomodoro-estimate"><%= @todo_pomodoro_estimate %> Pomodoros</span>
+  <br />
   <a href="#" class="button" id="edit-todo-button">Edit</a>
   <a href="#" class="button" id="delete-todo-button">Delete</a>
-  <a href="index" class="simple-link">Go back...</a>
+  <a href="../index" class="simple-link">Go back...</a>
 </div>
